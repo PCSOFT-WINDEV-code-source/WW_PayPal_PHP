@@ -1,0 +1,934 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : MDLC_BoutonAcheterMaintenant
+ major_version : 28
+ minor_version : 0
+ type : 65543
+ description : ""
+ subtype : 4096
+page :
+ name : MDLC_BoutonAcheterMaintenant
+ identifier : 0x2a67404a08a1d299
+ internal_properties : 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
+ properties :
+  width : 32767
+  height : 32767
+ controls :
+  -
+    name : MDLC_BoutonAcheterMaintenant
+    identifier : 0x2a67404a08a2d299
+    internal_properties : CAAAAAgAAAATG4N90ZqABiqS/9o1xT6IqT/U5Yy2z48X5sqN5ET5M5+rUaXrSNg28fNpa6yDaDT3kB4CwZcKUDhRQxKNj0QyDNcGALIsj0UYRNoC8DLNTnb+XybfyUansMo/9Nz596j0VVobi86jQHm5niR6tODJFRPv32fliu5GTp48K2Z5uzmeQSdoBjjTpUcQryIiY+p0rIiuAIkkcByLZj5Xcl3NXfwnKAXDQxLDjGzo1IklRhnKTr4c5k0JW2GKZIcBeMOLAUr8O+9mvtg/wnk72slC++IFwYPkyto86RbWLBB1mSrkgjlk5LsyD8IbdrIHc9xUdsQNM5LC/3Y9sI8XAIzKnYFddyMg0LHd8OwGA5eaAJQQsy+jYrqW/1KitOJUZEHabIx3cI9sTHMJHgr3ZA9wbYtmx2tA3D7GkxkgHnQ2W4RxuPab1pVKnWaT1PzNP7Tch8IPo6v5ORWzltI7+hpHZmNKv5bkW95DGD5QHYpKMqyFzMixhe6PT27bG77efZd+JYeistNSclvZi/0Dkd2nf9F41g14eEFYn6iLwcuZIMdVEU4TdXlAgI5XHk7wn4LxJZPTm2DT7DsBreTfjKsNRZg3/36gN/YXoxDhJit+jxL+b22b9BOy7PumucOKyHmJuFaeswd3IaQZwC9VcR8sLpY6PfKa/axJF/qSxBPtejOZvDHg6MQNviKIS95HOGKsAOOpWPK7nNM5F9+AyRp0Zl6BgN4CIxGL/nVosSYVCEImUNtEr1aVuMpDWEyVF9SmBTOUaxX43rb0QI2ky18udkhs1CMqBgJNN9eXcQdJXnGWYPO/IR3NViFcwgu+CwSOJoREJsbvs5t8HeD46/E4+dJlZDdQ8f0PoRmVNiCKk97bPKe772g=
+    properties :
+     width : 174
+     height : 52
+    controls :
+     -
+       name : HTM_PAYPAL
+       identifier : 0x2a67404a08a3d299
+       internal_properties : CAAAAAgAAABwAngfJ87lp/OqGjfoE/Df9KvYa8XQXr4GVEGqXpgiMgrW9IY52v4ft7TpduNMvC2iqhcR/qf0IWCJOUsAXVlMeFXsQztjJSJkwJUboYTVpnxEyMd4YCnhuXl7MYzAi12FRNUeKxSVJ74FsAk4eIZPdmN7hIc9+m1GBv6lapw0C7hKhBP9Q8uOcuJLRXJ+IvupdbOOjyQpm+rSJfjaWe2FsfDa5AOvDTCJ//sN77LGpku8kc86brjA3+J7htWt9C4amlahMXekPNwCYiNsGMeqlo4SlyWgFBiiwQ2HbzKYanMqtoMB+KSi7zLRSnXiD3QbtyyL5vwwia/CmfU54ScnrGO9CF0HHSJnNTU+yMUTgTDIqsAgsjlf9X1cN0znZmwRbhEsa1ekFYEmStrJV/UoQDtIavYac45boJDYwpGMYu5AHQEV90YvoZ1Dx0TG+/i0Tb1q/w2wISSv2SfbVx88M/wYpHNtwg8cw5F9yBwdZpGtRTl6mvd8yZ9dE5eailC291BQxUxGQ326lf8S1HomMi3DnTM+jhuyomrE5Ulbl548P5JE7IygYtVGTqbdl0uT8dLqGnF2Z4uGwKLjr+l1RRjPvA1kgwWCzRTXqaYBmel0TM3IyoYg4AzAGjZQtnbSGoocwBuPw0fFwqFDDIq+lrZthfQ0cVUftmtdyDqsn17MoBpJ5C2+i7098jBChxcFXaNG2aY8kT5BOhQssByNUvCd4cZ2XUui+9l3Bgpfl1d8bnQsIS87K73Kf5Y03i4VCQSUvYP4DyUMCmGUcQBw8qrTyrjnUcW7o5JOJBYq0cTUNdlXkvu4e1tmvNjkeXdX3w==
+       properties :
+        width : 174
+        height : 52
+       type : 12
+       code_elements :
+        type_code : 36
+        alias : C1
+        p_codes :
+         -
+           type : 851980
+           enabled : false
+         -
+           type : 1310732
+     -
+       name : BTN_RETOUROK
+       identifier : 0x2a67404a08a5d299
+       internal_properties : CAAAAAgAAACDF1iBsz1BK3W/Y+Y/L+qpNzO7NrOnHhEREGwjBoVz3gNPL9Bn4ie82ftatAuiLl3txHYmp8L4Wb3/C9kNc6cH+HOUZwBcVHjtmNyKE/QDYsRuLZfdhi3Ed/fz146GHeEFIgvEPEjYwMaU5+L9sfM0fO32henRPgIFBMW6m4E2io9jMaYoATL/DBHJi4pAsCUKK0W15FtXsYvIFkvsRDjfrlPJ/yW9+8CbqLetAJXqvXsAIssA3mP/Jvpvzylj9m1glYxzrjwpyVdZTp5ZPGpHz0JrjXBnf2yhI8RDWf/JZw8L1EnX7sHgtlk59aWBjUVjoy5rI6vygTiMHhwNdOeW+17qmwSD03sl0NlNxMjfAR0rSecqZ1mCsCz5RZAm5gaIttwgCCrHkrViMMEU2jlN4MJU6iiWKs3UYgC6z7NZJPrtWLWds3PMpmJ9eFuDwdwLDvq+j8odc//3DYANJ7WwAohFmbkdJtMg4eLyfHVbzxZ1kjYEQCEYlGT2VIoThRIbiPUYJTO925RKOhDUnpItyZiAFywFDHTW5sh5QbUOZMVGc0xwZuiBwlNrNkQ8v5GnmZPBFYfwDLMt+zvl8myTldTZe51cYgNGvRQh/MK1ssXhO9TYKWReM9uDgcS42Z0SbRclDTzV0pKj6um4dWFw5ZiBiumCdeSUae919DwE2zaIplPXJp2pwtMMOR/DO24avZMqmtQHDS3dnL0nCuzTl2ZJpO/juEX43NlGz4CMOa+kWBTZwV7e40K8t0hXM+DwY2ZHr/4MqwSsJ9s5ClbBnHYikmNy1EuiGQWWZfbTELv1QD+KJdeI4QpnXfJqqIkpu5Vt/MHF3/1gVJa9cSoeKTt56XRhhjbrHmts/43EkkbA/DwyybFq+L6VYMTsBJx40I/BrqRunAFdkLJ7oIjLXa/yNGKzKDNdghAuHZsPOENftd3/jK/la0IMDSYT0FO1DbTUXp8Gx/37CRDqkxrIpu/N/X/52y1Oo2bOs9CqoWx8oxL1DfxvrUdNnVHfahuL2DrLXVlZiwsI/pjU1lApqsncTkwzRtTy9STQCLxpJYy5+ItiaFtm8izz9MWmcvROZEXuTpewPoWpAd4otPuXnq2NaKAZ2AYIylMFtx04b1mV2bJun6ugFtn3TZMheOJa4cZ1lTKdOOq8QpvsygI4Zv5JkS+CRhflfLq5EvQTD4InAJFtnf60BpkFCpzLoGnzjLwUaZoquqkY0yG7zDIBuNx2ekc8IReaQytJlNMw4abe7nujvi6qFkW5NQ/3lyYS0+hBKrfi6ylE5vuFrQup/hlH3DvRImQTdhvCgKKVIEOtbQRir1o3iRKdctKTGUZ2qKLgpMvXj0nhWgYXYfkX9vWJuH9aDjS2ylVC
+       properties :
+        x : 138
+        y : 12
+        width : 24
+        height : 16
+       type : 4
+       code_elements :
+        type_code : 4
+        alias : C3
+        p_codes :
+         -
+           type : 851980
+           enabled : false
+         -
+           type : 1310732
+         -
+           type : 851998
+           role : N
+         -
+           type : 851984
+           enabled : false
+         -
+           internal_properties : CAAAAAgAAABvhQpwjKu/fxiiCXBy5ZViT6d7CKKTbCoGRYEqD7zf6STCDmX0Ijc4NTAVfs8EoOT8iblTBicypKDvEPbLwEogmC7B7dpCulq6bJYFrQ4sns88rKCOCQ==
+           code : |1-
+            
+            si gsPageRetourOK <> "" alors
+            	si gsPageRetourOK[[a 4]] = "http" _ou_ position(gsPageRetourOK, "/") > 0 ALORS
+            		ScriptAffiche(gsPageRetourOK)
+            	sinon
+            		PageAffiche(gsPageRetourOK)
+            	FIN
+            FIN
+           type : 1310736
+         -
+           type : 852149
+           role : N
+           enabled : false
+     -
+       name : BTN_SOURCE
+       identifier : 0x2a67404a08a6d299
+       internal_properties : CAAAAAgAAABATekIkHSyhbVeVKGTGm2cEwtm9xieZVdAV3gatEFmH1L8rapVKv2qAVbE+YPPqXVQ2nvMtHJk+bjQ8pVZ0TefjYuPyIaiTPvyYKnpNTYi0MX/3KQvXkquSSnY+SlZ4jit/5q2jCNw/fuaBrCoth/i8oVa8GBGB1rUIrzFrQSd97KcTDo9CHfYg+ef4QjQivb7txJQRu0RQjffR+R1lHZRbKeGLqQ5so4REESzo5oA6rv1ubCRT/h0QdAaSokX0JLYFybDcXaMbeqpSzKkTy/lL9HpnhyPYN3W0HUS4S30jYK9fgNSe5pX/a8ZE297mxzf9x3BppbiTzQ9scJMJwhlbx2COM08I8/19IkCw5x2cUmPHRq/c/qqyT93SvrN06gHdu4YAcBD0h4/dqWCO525QcJcyFQ/eLb/w9MMyQijdG9ywzs2lnRrXOiJKi040i7HSNlGya/NrKQi+WblFFS5aU622UcVCUsFcZ6b/l+7lQ3Y7yBGQ/9Q+NbQgO7ZGMfgRXU62q8rmA0K7tmGa6LObHzfKM2QkIdaWa3D6ktBOY1YMgSyfCU0Ti8L5u9sntgMgsxVQfLiteZq7mVdCigqv9JBsQQQd2xV93JYu13u48idcS8LE4cMuWil7C2/sXt5V6qSe0NLzMknWJYuhKObeSmszCmnNEPFGC1NyIWfx6OxjNU1iTGbRsKpoNOPjGwbS5DJctPlyZ2K205DDpVpSjZK02OQhnU2uWjLn3Db+4pMmaHzxqLQ75tvytIN1rYdF0lSI+lej45PuFrp+kknNdB1VzVHYhNSutw7nU5iesbt/07yZPsqg6XgCv5+jVtyp3oikJRby62LOa8Z5WcS2A+2UGxQjL51Ucj9JVelar+kd4mM3uuyYE2aew5SS8wbeBDg1h3gjLvUeV9dXnOBKolzYeaWZBHXM7sHgxXsAvKl5PglBS3hPTunpDQlDeUY5e0HfKBME6HoxL3C+3vmidHgcmtuIbEm9Fk/neany6MeTJ0p6izlaYSwsjcJlRnuikNeKfaBEeMBRVdEJo9ZHVHld2TEjhbO4rdjrtaod8sNU58VW3/vBydQPU66eH7M83o5Td1FSZST5eaa5Jf/DxFgz6JglsSeJpMNgwXFgzdG2WwUH4+5H1ko020CBfz1PTxT7zLtEIXTfrWTs3HzHdpSOl0uVEdDfvc/6PjkZRc4tjpNPR3N+79Sr3XrqBbXevW0qyEk+OY7Gbm8CEpERa2T9VkQcObY1bStFKLG5Lv30mQyH819DJUrcBJGffL+mla9nAs7yjZ/dAkwlJWUNPeO++TPR7/RXFQhwzLLCInx39T7ifQTsXNa939ZqPnyBAVoCVY1T41kQo5FugWEGxr98n2ea/rg
+       properties :
+        x : 32
+        y : 12
+        width : 24
+        height : 16
+       type : 4
+       code_elements :
+        type_code : 4
+        alias : C4
+        p_codes :
+         -
+           type : 851980
+           enabled : false
+         -
+           type : 1310732
+         -
+           type : 851998
+           role : N
+         -
+           type : 851984
+           enabled : false
+         -
+           internal_properties : CAAAAAgAAABvhQpwjKu/fxiiCXBy5ZViT6d7CKKTbCoGRYEqD7zf6STCDmX0Ijc4NTAVfs8EoOT8iblTBicypKDvEPbLwEogmC7B7dpCulq6bJYFrQ4sns88rKCOCQ==
+           code : |1-
+            
+            ChaîneAffiche(gshtml)
+           type : 1310736
+         -
+           type : 852149
+           role : N
+           enabled : false
+     -
+       name : BTN_RETOURANNULE
+       identifier : 0x2a67404a08a4d299
+       internal_properties : CAAAAAgAAAAjROBwfy/CAb81YE5ZT6eOz4BQSqk//8pkkbeqtA8mvz1S1nMDz6wEjd3jPO7lZgp3QOhnMdBWSTfdj3p34kMacEuE1TjPMu2SEXHo2o2XIvJKVyTUpFjDQQgsEwKwLlT/iL0Z4iJX5v8FxCeg8nu2Ffyn4mR/vyr6QmPQhk5UKpsxT9623aa4yasey94wEQyc5ps1yjk0W2HKWg64Kf+AmuBUvux739PUodxn4Eln0yZ0zuVdHisjgIhODR8rifBirNMHsu/kuh+nQulHBisB6cuRfGoqJZOvkVlR3mAkZBaIq/n+4zKiMTafqaAFJTTxFrBPUzp3v8YxzrMu7//5PIhMZ4uUI7Q7isAF7loh2ABENlir2W4cUWjIAAnQahwQyXHvI/NLaOQOob5JSV6hHr0zV0ENy88GoibE82BN0XZrxr/zHrJUKWlKWx7wqEoqIorZQnd8Fflrv4biTTGSxsbVsHpwxZJIS1JbZL4RwdMbDZk2+2u1vArdDjL4YeY9oLMEKm92FXRirhuYOSJa26XdxnBw+Z62cg+2Q1Ho23SSKWPFk1f+XlRNfuWW0uEUWHOEgnoXrPtfl1NBoZCZeJvQyj7lMK9Y9yTgxtPaaD7wb1qpnhiG48RjCGTrhP+a0t5eex1BI1gdKmrIauFfn03B3ebfWr6fJEVCtP7dQrwCDg2uYa10TsV5vk2YU/KE/kwvFHnTjBft8X4PcZrJ06Fqx4PQWrJiMO5hiYNYickjc8WjukKR12AHZNCCoU58sH2whXU2CEbc+Ey32eY1EhGFH2EDgkygDbBV0ydRbv/Cf7a21Odv2Uz6dAy/eM0/Unx0Frz3wonCcakHxOgU/TzStOwo4LeZGmIdYXqqwEaH/zEYIts75rqEqZBBeCTux1CuCENeO9tJv3mL7ajHl7Sz2YK+8CzVVD+X72yJeqeSRgILE5us28Dvah5M/vnxko1LTBwMHo9L6KWekojGsuJcAv/mLaLadbfnIQEs+6TneC+37L5UR+cQOlMM5uPh55NiUTDzYD3Q0zlCl6rj/lYV7T5CxPfY3SEr2h09dS7iUTpMbOLrQOXPVnugvDdESQ8yemD+sQsVWldvrutgzRU7/lUF3XJfbGg4Gl2PQLWRQdcT17myx6Sl6BoffrG7wWrtYVRO5MOtwEdJ3pND5Sgv47bKRyIBczDbAQ4zAQf2ldSTwFC9BB/+sQ/NYCM2rPRnthpveG4jxoUPUlHmsSwKH9CXoZJzAPq1fCklR36lxVplC97cj1JaxwwtPB3xndZCPu63nm0yB78S+4RX4KLOK7AxgWRdy4B8N/VU+u9RjaWKCv85IYTvBdy08HQ5sKDxanR8g3DrW9IkAtfLgfkJIOtFqzspKiI=
+       properties :
+        x : 138
+        y : 28
+        width : 24
+        height : 15
+       type : 4
+       code_elements :
+        type_code : 4
+        alias : C2
+        p_codes :
+         -
+           type : 851980
+           enabled : false
+         -
+           type : 1310732
+         -
+           type : 851998
+           role : N
+         -
+           type : 851984
+           enabled : false
+         -
+           internal_properties : CAAAAAgAAABvhQpwjKu/fxiiCXBy5ZViT6d7CKKTbCoGRYEqD7zf6STCDmX0Ijc4NTAVfs8EoOT8iblTBicypKDvEPbLwEogmC7B7dpCulq6bJYFrQ4sns88rKCOCQ==
+           code : |1+
+            
+            SI gsPageRetourAnnule <> "" ALORS
+            	SI gsPageRetourAnnule[[A 4]] = "http" _OU_ Position(gsPageRetourAnnule, "/") > 0 ALORS
+            		ScriptAffiche(gsPageRetourAnnule)
+            	SINON
+            		PageAffiche(gsPageRetourAnnule)
+            	FIN
+            FIN
+           type : 1310736
+         -
+           type : 852149
+           role : N
+           enabled : false
+    type : 42
+    code_elements :
+     type_code : 92
+     alias : C5
+     p_codes :
+      -
+        type : 851968
+        enabled : false
+      -
+        code : |1-
+         
+         gsAccount			       		est une chaine
+         gmoAmount					est un monétaire = 15.50
+         gsItemName					est une chaine sur 127
+         gsItemNumber 				est une chaine sur 127
+         gnQuantity					est un entier = 1
+         gbUndefQuantity				est un booléen
+         gsCancelReturn				est une chaine
+         gsCbt						est une chaine
+         gsCn						est une chaine sur 40
+         gsCppHeaderImage			est une chaine
+         gsCppHeaderBackColor		est une chaine
+         gsCppHeaderBorderColor		est une chaine
+         gsCppPayFlowColor			est une chaine
+         gbCs						est un booléen
+         gsImageUrl					est une chaine
+         gbNoNote					est un booléen = vrai
+         gnNoShipping				est un entier = 2
+         gsReturn						est une chaine
+         gnRm						est un entier
+         gsCurrencyCode				est une chaine = "EUR"
+         gsLanguage					est une chaîne = "FR"
+         gsCustom					est une chaine sur 256
+         gmoHandling					est un monétaire
+         gsInvoice						est une chaine sur 256
+         gmoShipping					est un monétaire
+         gmoShipping2					est un monétaire
+         gsButton						est une chaine = BT_IMG_PAIEMENTS_PAYPAL_70x31
+         
+         gsPageRetourOK				est une chaine
+         gsPageRetourAnnule			est une chaine
+         gsHTML						est une chaine
+        type : 1310720
+      -
+        type : 851980
+        enabled : false
+      -
+        code : |1+
+         
+         // Génération du code HTML
+         SetPageRetourPaiementOK("")
+         SetPageRetourPaiementAnnulé("")
+         
+         _HTML()
+        type : 1310732
+      -
+        type : 852019
+        enabled : false
+      -
+        type : 1310771
+      -
+        type : 852018
+        enabled : false
+      -
+        type : 1310770
+      -
+        type : 852298
+        role : N
+      -
+        type : 851999
+        role : N
+      -
+        type : 852202
+        enabled : false
+      -
+        type : 852227
+        enabled : false
+      -
+        type : 1310979
+        enabled : false
+      -
+        type : 852228
+        role : N
+        enabled : false
+      -
+        internal_properties : CAAAAAgAAAC8gmh+MC4QrU0utgNBfl0Ba/jqg1LK+Dwp8MhpUhqrFXKYnYkcdsFAaHOY6ObpQ/xfKfSxjrQterWfXIxYE+XU8eTa3dgHHYih6pD5FI+viG7ChbqMzBs=
+        type : 852216
+      -
+        type : 852217
+        role : N
+ type : 1
+ languages :
+  - fr-FR
+ code_elements :
+  type_code : 91
+  p_codes :
+   -
+     type : 852298
+     role : N
+   -
+     type : 851999
+     role : N
+   -
+     type : 852000
+     role : N
+   -
+     internal_properties : CAAAAAgAAAC8gmh+MC4QrU0utgNBfl0Ba/jqg1LK+Dwp8MhpUhqrFXKYnYkcdsFAaHOY6ObpQ/xfKfSxjrQterWfXIxYE+XU8eTa3dgHHYih6pD5FI+viG7ChbqMzBs=
+     type : 852167
+   -
+     type : 852169
+     role : N
+   -
+     type : 852225
+     role : N
+   -
+     internal_properties : CAAAAAgAAAC8gmh+MC4QrU0utgNBfl0Ba/jqg1LK+Dwp8MhpUhqrFXKYnYkcdsFAaHOY6ObpQ/xfKfSxjrQterWfXIxYE+XU8eTa3dgHHYih6pD5FI+viG7ChbqMzBs=
+     type : 852227
+   -
+     type : 1310979
+     enabled : false
+   -
+     type : 852228
+     role : N
+  procedures :
+   -
+     name : _CREATEFORMVALUE
+     internal_properties : CAAAAAgAAAC+jxFIHySEQZJgtYwLETewgPv290JpfSBNLbQw/OkoveoRcZtb9SXw7Sz9XSQIlj/YiXWSCjpSNYDmq896Pfjz7qTY5bu5ZGMcV/0yVo2GGwh1UItUv4hZSyNwN1YNbqXwXcuK9drTCm+ymgFl
+     procedure_id : 1902560101413289375
+     type_code : 14
+     code : |1-
+      // Résumé : Créer un champ caché de formulaire
+      // Syntaxe :
+      //[ <Résultat> = ] _CREATEFORMVALUE (<sNom>, <vValeur> [, <bUniquementSiDifférentValeurDéfaut>])
+      //
+      // Paramètres :
+      //	sNom : Nom du champ
+      //	vValeur : Valeur du champ
+      //	bUniquementSiDifférentValeurDéfaut (valeur par défaut=0) : Vrai si le code HTML ne doit être généré que si la valeur est différente de la valeur par défaut
+      // Valeur de retour :
+      // 	chaîne : Chaîne HTML
+      
+      Procédure restreinte _CREATEFORMVALUE(sNom, local vValeur, bUniquementSiDifférentValeurDéfaut = faux)
+      	
+      	si bUniquementSiDifférentValeurDéfaut alors
+      		si vValeur dans ("", 0) alors
+      			renvoyer ""
+      		FIN
+      	fin
+      
+      RENVOYER ChaîneConstruit("<input type=""hidden"" name=""%1"" value=""%2"">", sNom, vValeur)		
+     type : 458752
+   -
+     name : _HTML
+     internal_properties : CAAAAAgAAADJqd3NDaR26lJTUkUhfwbGaRlipAZH+dd2e5sVhqvn7YNjaH41waw9UKex02KB4U3gMR2Vyg6vyOUkx4Fnr4KwwZgJdM1EttptN6x3Joq0nd9R/Zn0nnRxDDoMJREPYt6ArJq5wyuCktcY6pyekhq/RDncoM2QP7JJ00g5x7s+wONO3Rp57ouaovguGl5r9enhDgLCbIodCtljawWZfmqZbc9RZRZ6MI2YjegpkpshovEkBXBU4kw4KknoQTH6mq1+pWSNt4SE1HBCRReAHotsx+lBum3EN4a8xPwtiUQRXtsD6cPqeVmGVwubrVvNdERr45ne7Kztnvw4MPvK0P3loSC4OTlsfI2SLCKGwg==
+     procedure_id : 1902560101413355161
+     type_code : 14
+     code : |1-
+      // Résumé : Génère le code HTML nécessaire pour l'exécution du bouton de paiement PayPal
+      // Syntaxe :
+      //_HTML ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure restreinte _HTML()
+      
+      // Bulle
+      sAlt est une chaine = (gsLanguage <>nationFrançais ? "Make payments with PayPal - it’s fast, free and secure!" sinon "Effectuez vos paiements via PayPal : une solution rapide, gratuite et sécurisée !")
+      
+      //
+      // Valeurs obligatoires
+      //
+      si gsAccount = "" alors gsAccount = pPayPal.gsPayPalAccount
+      sAccount est une chaine = _CREATEFORMVALUE("business", gsAccount)
+      
+      // Montant
+      sMontant est une chaine = _CREATEFORMVALUE("amount", gmoAmount)
+      
+      // Nom et référence de l'objet
+      sItemName est une chaine = _CREATEFORMVALUE("item_name", gsItemName)
+      sItemNmbr est une chaine = _CREATEFORMVALUE("item_number", gsItemNumber)
+      
+      // Quantités
+      sQuantité est une chaine = _CREATEFORMVALUE("quantity", gnQuantity)
+      sModQuantité est une chaine = _CREATEFORMVALUE("undefined_quantity", gbUndefQuantity, vrai)
+      
+      // Monnaie
+      sMonnaie est une chaine = _CREATEFORMVALUE("currency_code", gsCurrencyCode, vrai)
+      
+      //
+      // Valeurs optionnelles
+      //
+      
+      // Pages de retour
+      sPageAnnule est une chaine = _CREATEFORMVALUE("cancel_return", gsCancelReturn, vrai)
+      sPageOK est une chaine = _CREATEFORMVALUE("return", gsReturn, vrai)
+      sTxtContinuer est une chaine = _CREATEFORMVALUE("cbt", gsCbt, vrai)
+      
+      
+      // Commentaires
+      sCn	est une chaine = _CREATEFORMVALUE("cn", gsCn, vrai)
+      sNoNote est une chaine = _CREATEFORMVALUE("no_note", gbNoNote, vrai)
+      
+      // Mise en page
+      sHdImage est une chaine = _CREATEFORMVALUE("cpp_header_image", gsCppHeaderimage, vrai)
+      sHdColor est une chaine = _CREATEFORMVALUE("cpp_headerback_color", gsCppHeaderBackColor, vrai)
+      sHdBdColor est une chaine = _CREATEFORMVALUE("cpp_headerborder_color", gsCppHeaderBorderColor, vrai)
+      sPayFlow est une chaine = _CREATEFORMVALUE("cpp_payflow_color", gsCppPayFlowColor, vrai)
+      sCs est une chaine = _CREATEFORMVALUE("cs", gbCs, vrai)
+      sLogo est une chaine = _CREATEFORMVALUE("image_url", gsImageUrl, vrai)
+      
+      // Adresses de livraison
+      sShipping est une chaine = _CREATEFORMVALUE("no_shipping", gnNoShipping, vrai)
+      
+      // Mode de retour
+      sRM est une chaine = _CREATEFORMVALUE("rm", gnRm, vrai)
+      
+      // Divers
+      sCustom est une chaine = _CREATEFORMVALUE("custom", gsCustom, vrai)
+      sHandling est une chaine = _CREATEFORMVALUE("handling", gmoHandling, vrai)
+      sInvoice est une chaine = _CREATEFORMVALUE("invoice", gsInvoice, vrai)
+      sShipping01 est une chaine = _CREATEFORMVALUE("shipping", gmoShipping, vrai)
+      sShipping02 est une chaine = _CREATEFORMVALUE("shipping2", gmoShipping2, vrai)
+      sID est une chaine = "PAYPAL" + DonneIdentifiant()
+      
+      // Complète
+      sHTML est une chaine = [
+      <html><body topmargin=0 leftmargin=0>
+      <form name="form%1" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_parent">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="image" src="%2" alt="%3" onclick="form%1.submit();">
+      <input type="hidden" name="lc" value=%4>
+      <input type="hidden" name="bn" value="PP-BuyNowBF">		
+      <img alt="" border="0" src="https://www.sandbox.paypal.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+      %5
+      </form></body></html>
+      ]
+      
+      
+      sHTML = chaineconstruit(sHTML, sID, gsButton, sAlt,gsLanguage, sAccount + ...
+      sMontant + ...
+      sItemName + ...
+      sItemNmbr + ...
+      sQuantité + ...
+      sModQuantité + ...
+      sMonnaie + ...
+      sPageAnnule + ...
+      sPageOK + ...
+      sTxtContinuer + ...
+      sCn + ...
+      sLogo + ...
+      sHdImage + ...
+      sHdColor + ...
+      sHdBdColor + ...
+      sCs + ...
+      sPayFlow + ...
+      sShipping + ...
+      sRM + ...
+      sCustom + ...
+      sHandling + ...
+      sInvoice + ...
+      sShipping01 + ...
+      sShipping02)
+      
+      
+      // Mode test ?
+      si pas pPayPal.gbModeTest alors sHTML = remplace(sHTML, "sandbox.", "")
+      // Langue
+      si gsLanguage <> nationFrançais alors sHTML = remplace(sHTML, "fr_FR", "en_US")
+      
+      // Affichage du code HTML
+      gsHTML = sHTML
+      HTM_PAYPAL = "<iframe src=""" + remplace( PageAdresse(""), "http:", "" ) + "?&WD_BUTTON_CLICK_=" + BTN_SOURCE..Alias + """ border=0 frameborder=0 style=""width:auto;height:auto;overflow:none;""></iframe>"
+     type : 458752
+   -
+     name : Actualise
+     procedure_id : 1902560105708388305
+     type_code : 14
+     code : |1-
+      // Résumé : Actualisation
+      // Syntaxe :
+      //Actualise ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure publique Actualise()
+      
+      	_html()
+     type : 458752
+   -
+     name : SetAdresseLivraison
+     procedure_id : 1902560105708388476
+     type_code : 14
+     code : |1-
+      // Résumé : Définit si l'acheteur pourra saisir une adresse de livraison
+      // Syntaxe :
+      //SetAdresseLivraison (<bAutoriseAdresseLivraison>)
+      //
+      // Paramètres :
+      //	bAutoriseAdresseLivraison : Vrai si l'utilisateur pourra entrer une adresse de livraison, Faux dans le cas contraire
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetAdresseLivraison(bAutoriseAdresseLivraison)
+      
+      	gnNoShipping = bAutoriseAdresseLivraison ? 2 sinon 1
+      
+      	_HTML()
+     type : 458752
+   -
+     name : SetBoutonPaiement
+     procedure_id : 1902560105708454168
+     type_code : 14
+     code : |1-
+      // Résumé : Définit l'image du bouton de paiement à afficher dans votre page
+      // Syntaxe :
+      //SetBoutonPaiement (<sImage>)
+      //
+      // Paramètres :
+      //	sImage : URL de l'image du bouton ou constante (BT_xxx)
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetBoutonPaiement(sImage)
+      
+      	gsButton = sImage
+      	
+      	_HTML()
+     type : 458752
+   -
+     name : SetCommentaires
+     internal_properties : CAAAAAgAAABK+2WcazjmxeL09dy7zd9o8AeyP2JhpTQ1OQQoHI1IRWoVdfvr/S3s9SDVHQR8Tq9IfbESitrY337s0S38315RTGoqc00j0tWyNcNwkA8EmUbrgtkeqT4zEXmOHQA/rGsOs+XIz+S/BgMGbnWR
+     procedure_id : 1902560105708519829
+     type_code : 14
+     code : |1-
+      // Résumé : Définit si l'acheteur pourra saisir un commentaire lors du paiement
+      // Syntaxe :
+      //SetCommentaires (<bCommentairesAutorisés> [, <sEtiquette>])
+      //
+      // Paramètres :
+      //	bCommentairesAutorisés : Vrai pour activer la saisie de commentaires, Faux sinon
+      //	sEtiquette (valeur par défaut="") : Etiquette à afficher au dessus des commentaires (40 car. max)
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetCommentaires(bCommentairesAutorisés, sEtiquette = "")
+      
+      	gbNoNote = pas bCommentairesAutorisés
+      	gsCn = sEtiquette
+      	
+      	_HTML()
+     type : 458752
+   -
+     name : SetComptePayPal
+     procedure_id : 1902560105708585505
+     type_code : 14
+     code : |1-
+      // Résumé : Définit le compte PayPal à créditer (par défaut, il s'agit du compte PayPal principal)
+      // Syntaxe :
+      //SetComptePayPal (<sCompte>)
+      //
+      // Paramètres :
+      //	sCompte : Compte PayPal à utiliser
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetComptePayPal(sCompte)
+      
+      	gsAccount = sCompte
+      	
+      	_HTML()
+     type : 458752
+   -
+     name : SetCouleurArrièrePlan
+     procedure_id : 1902560105708651166
+     type_code : 14
+     code : |1-
+      // Résumé : Définit la couleur d'arrière plan de la page de paiement
+      // Syntaxe :
+      //SetCouleurArrièrePlan (<nCouleur>)
+      //
+      // Paramètres :
+      //	nCouleur : Couleur
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetCouleurArrièrePlan(nCouleur)
+      	
+      	gsCppPayFlowColor = NumériqueVersChaîne(RVBRouge(nCouleur), "02X") + ...
+      						  NumériqueVersChaîne(RVBVert(nCouleur), "02X")  + ...
+      						  NumériqueVersChaîne(RVBBleu(nCouleur), "02X")
+      						  
+      	_HTML()
+     type : 458752
+   -
+     name : SetCouleurArrièrePlanEntête
+     procedure_id : 1902560110003684154
+     type_code : 14
+     code : |1-
+      // Résumé : Définit la couleur d'arrière plan de l'en-tête de la page de paiement
+      // Syntaxe :
+      //SetCouleurArrièrePlanEntête (<nCouleur>)
+      //
+      // Paramètres :
+      //	nCouleur : Couleur
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetCouleurArrièrePlanEntête(nCouleur)
+      	
+      	gsCppHeaderBackColor = NumériqueVersChaîne(RVBRouge(nCouleur), "02X") + ...
+      							 NumériqueVersChaîne(RVBVert(nCouleur), "02X")  + ...
+      							 NumériqueVersChaîne(RVBBleu(nCouleur), "02X")
+      							 
+      	_HTML()							 
+     type : 458752
+   -
+     name : SetCouleurBordureArrièrePlanEntête
+     procedure_id : 1902560110003749831
+     type_code : 14
+     code : |1-
+      // Résumé : Définit la couleur de la bordure d'arrière plan de l'en-tête de la page de paiement
+      // Syntaxe :
+      //SetCouleurBordureArrièrePlanEntête (<nCouleur>)
+      //
+      // Paramètres :
+      //	nCouleur : Couleur
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetCouleurBordureArrièrePlanEntête(nCouleur)
+      	
+      	gsCppHeaderBorderColor = NumériqueVersChaîne(RVBRouge(nCouleur), "02X") + ...
+      							   NumériqueVersChaîne(RVBVert(nCouleur), "02X")  + ...
+      							   NumériqueVersChaîne(RVBBleu(nCouleur), "02X")
+      							   
+      	_HTML()							   
+     type : 458752
+   -
+     name : SetDevise
+     procedure_id : 1902560110003815523
+     type_code : 14
+     code : |1-
+      // Résumé : Définit la devise de paiement
+      // Syntaxe :
+      //SetDevise (<nDevise>)
+      //
+      // Paramètres :
+      //	nDevise : Devise (constante eCZK, eDKK, eEUR, eGBP, eHUF, ePLN, eSEK, eUSD et eJPY)
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetDevise(nDevise)
+      
+      	selon nDevise
+      //		CAS eCZK : gsCurrencyCode = "CZK"
+      		CAS eDKK : gsCurrencyCode = "DKK"
+      		CAS eEUR : gsCurrencyCode = "EUR"
+      		CAS eGBP : gsCurrencyCode = "GBP"
+      //		CAS eHUF : gsCurrencyCode = "HUF"
+      //		CAS ePLN : gsCurrencyCode = "PLN"
+      		CAS eSEK : gsCurrencyCode = "SEK"
+      		cas eUSD : gsCurrencyCode = "USD"			
+      		cas eJPY : gsCurrencyCode = "JPY"
+      	FIN
+      
+      	_HTML()
+       
+     type : 458752
+   -
+     name : SetFraisDossier
+     procedure_id : 1902560110003881215
+     type_code : 14
+     code : |1-
+      // Résumé : Définit le montant des frais de dossier
+      // Syntaxe :
+      //SetFraisDossier (<moFrais>)
+      //
+      // Paramètres :
+      //	moFrais : Frais de dossier
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetFraisDossier(moFrais)
+      
+      	gmoHandling = moFrais
+      	
+      	_HTML()
+     type : 458752
+   -
+     name : SetFraisExpédition
+     procedure_id : 1902560110003946922
+     type_code : 14
+     code : |1-
+      // Résumé : Définit le montant des frais d'expédition
+      // Syntaxe :
+      //SetFraisExpédition (<moFrais> [, <moFraisSupplémentaire>])
+      //
+      // Paramètres :
+      //	moFrais : Frais d'expédition
+      //	moFraisSupplémentaire (valeur par défaut=0) : Frais d'expédition pour chaque objet supplémentaire
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetFraisExpédition(moFrais, moFraisSupplémentaire = 0)
+      
+      	gmoShipping = moFrais
+      	gmoShipping2 = moFraisSupplémentaire
+      	
+      	_HTML()
+     type : 458752
+   -
+     name : SetImage
+     procedure_id : 1902560110004012614
+     type_code : 14
+     code : |1-
+      // Résumé : Définit l'image à afficher en haut à gauche de la page de paiement (750 x 90 max.)
+      // Syntaxe :
+      //SetImage (<sURLImage>)
+      //
+      // Paramètres :
+      //	sURLImage : URL de l'image
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetImage(sURLImage)
+      	
+      	gsCppHeaderImage = sURLImage
+      	
+      	_HTML()
+     type : 458752
+   -
+     name : SetLogo
+     procedure_id : 1902560110004078322
+     type_code : 14
+     code : |1-
+      // Résumé : Définit l'image du logo de votre société (150 x 50 max.)
+      // Syntaxe :
+      //SetLogo (<sURLImage>)
+      //
+      // Paramètres :
+      //	sURLImage : URL de l'image
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetLogo(sURLImage)
+      	
+      	gsImageUrl = sURLImage
+      
+      	_HTML()
+     type : 458752
+   -
+     name : SetModeRetourPaiement
+     procedure_id : 1902560114299111325
+     type_code : 14
+     code : |1-
+      // Résumé : Définit le mode de retour des pages de paiement (Par défaut, méthode GET, méthode POST)
+      // Syntaxe :
+      //SetModeRetourPaiement (<nMode>)
+      //
+      // Paramètres :
+      //	nMode : Mode de retour des pages de paiement (RM_DEFAUT, RM_GET, RM_POST)
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetModeRetourPaiement(nMode)
+      
+      	si nMode dans (rm_defaut, rm_get, rm_post) alors
+      		gnRm = nMode
+      	fin
+      	
+      	_HTML()
+     type : 458752
+   -
+     name : SetMontant
+     procedure_id : 1902560114299177033
+     type_code : 14
+     code : |1-
+      // Résumé : Définit le montant de l'objet à vendre
+      // Syntaxe :
+      //SetMontant (<moMontant>)
+      //
+      // Paramètres :
+      //	moMontant : Montant de l'objet (dans la devise spécifiée par SetDevise())
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetMontant(moMontant)
+      
+      gmoAmount = moMontant
+      _HTML()
+     type : 458752
+   -
+     name : SetNuméroFacture
+     procedure_id : 1902560114299242741
+     type_code : 14
+     code : |1-
+      // Résumé : Définit l'identifiant de facture à associer au paiement
+      // Syntaxe :
+      //SetNuméroFacture (<sNuméro>)
+      //
+      // Paramètres :
+      //	sNuméro : Numéro de facture (256 car. max)
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetNuméroFacture(sNuméro)
+      	
+      	gsInvoice = sNuméro
+      	_HTML()
+     type : 458752
+   -
+     name : SetObjet
+     procedure_id : 1902560114299308464
+     type_code : 14
+     code : |1-
+      // Résumé : Définit un objet à vendre
+      // Syntaxe :
+      //SetObjet (<sNom>, <sRéférence>)
+      //
+      // Paramètres :
+      //	sNom : Nom de l'objet (256 car. max)
+      //	sRéférence : Référence ou ID de l'objet (256 car. max)
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetObjet(sNom, sRéférence)
+      
+      	gsItemname = sNom
+      	gsItemNumber = sRéférence
+      	_HTML()
+     type : 458752
+   -
+     name : SetPageRetourPaiementAnnulé
+     procedure_id : 1902560114299374203
+     type_code : 14
+     code : |1+
+      // Résumé : Définit la page de retour à appeler lors de l'annulation du paiement
+      // Syntaxe :
+      //SetPageRetourPaiementAnnulé (<sPageRetour>)
+      //
+      // Paramètres :
+      //	sPageRetour : Nom de la page WEBDEV ou adresse URL de la page à afficher
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetPageRetourPaiementAnnulé(sPageRetour)
+      
+      	gsPageRetourAnnule = sPageRetour
+      
+      	si gsPageRetourAnnule = "" alors
+      		gsCancelReturn = ""
+      	sinon
+      		gsCancelReturn = PageAdresse("", paCOMPLETE) + "?WD_BUTTON_CLICK_="  + BTN_RETOURANNULE..alias
+      	FIN
+      	
+      	_HTML()
+      	
+     type : 458752
+   -
+     name : SetPageRetourPaiementOK
+     procedure_id : 1902560118594407222
+     type_code : 14
+     code : |1-
+      // Résumé : Définit la page de retour à appeler lors de l'acceptation du paiement
+      // Syntaxe :
+      //SetPageRetourPaiementOK (<sPageRetour> [, <sTexteBoutonContinuer>])
+      //
+      // Paramètres :
+      //	sPageRetour : Nom de la page WEBDEV ou adresse URL de la page à afficher
+      //	sTexteBoutonContinuer (valeur par défaut="") : Texte du bouton 'Continuer' sur le page de paiement de PayPal
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetPageRetourPaiementOK(sPageRetour, sTexteBoutonContinuer = "")
+      
+      gsPageRetourOK = sPageRetour
+      
+      si gsPageRetourOK <> "" alors
+      	gsReturn = PageAdresse("", paCOMPLETE) + "?WD_BUTTON_CLICK_="  + BTN_RETOUROK..alias 
+      	gsCbt	 = sTexteBoutonContinuer
+      sinon
+      	gsReturn = ""
+      	gsCbt = ""
+      fin
+      
+      _HTML()
+     type : 458752
+   -
+     name : SetQuantité
+     procedure_id : 1902560118594472976
+     type_code : 14
+     code : |1-
+      // Résumé : Définit la quantité de l'objet à vendre
+      // Syntaxe :
+      //SetQuantité (<nQuantitéDépart> [, <bQuantitéModifiable>])
+      //
+      // Paramètres :
+      //	nQuantitéDépart : Quantité de départ de l'objet à vendre
+      //	bQuantitéModifiable (valeur par défaut=0) : Vrai pour laisser la possibilité au client de modifier la quantité, Faux sinon
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetQuantité(nQuantitéDépart, bQuantitéModifiable = faux)
+      
+      	gnQuantity = nQuantitéDépart
+      	gbUndefquantity = bQuantitéModifiable
+      	_HTML()
+     type : 458752
+   -
+     name : SetValeurPersonnalisée
+     procedure_id : 1902560118594538731
+     type_code : 14
+     code : |1-
+      // Résumé : Définit la valeur d'une variable de transit (optionnel)
+      // Syntaxe :
+      //SetValeurPersonnalisée (<sValeurPerso>)
+      //
+      // Paramètres :
+      //	sValeurPerso : Valeur personnalisée (256 car. max)
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetValeurPersonnalisée(sValeurPerso)
+      
+      	gsCustom = sValeurPerso
+      	_HTML()
+     type : 458752
+   -
+     name : SetLangue
+     procedure_id : 2053109257921812098
+     type_code : 14
+     code : |1-
+      // Résumé : Définit la langue pour le site PayPal 
+      // Syntaxe :
+      //SetLangue (<nLangue>)
+      //
+      // Paramètres :
+      //	nLangue : Langue à utiliser
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure publique SetLangue(nLangue)
+      
+      SELON nLangue
+      	CAS langueAnglais : gsLanguage 	= "GB"    //Anglais
+      	CAS langueEspagnol : gsLanguage = "ES" 	//Espagnol
+      	CAS langueFrançais : gsLanguage = "FR" 	//Français
+      	CAS langueChinois : gsLanguage = "CN" 	//Chinois
+      FIN
+      
+      
+      _HTML()
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : MDLC_ModèleChamps1
+resources :
+ string_res :
+  identifier : 0x100e934154f807a8
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+webification :
+ internal_properties : CAAAAAgAAACYzxT95H3qP7nIys4LqA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
